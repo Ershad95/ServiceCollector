@@ -4,6 +4,16 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>ServiceCollector.Abstractions</Title>
+        <Authors>ErshadRaoufi</Authors>
+        <RepositoryUrl>https://github.com/Ershad95/ServiceCollector.git</RepositoryUrl>
+        <PackageTags>.net services add-services </PackageTags>
+    </PropertyGroup>
+
+
+    <PropertyGroup>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
 
     <ItemGroup>

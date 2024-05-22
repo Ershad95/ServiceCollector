@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCollector.Core", "Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCollector.Abstractions", "ServiceCollector.Abstractions\ServiceCollector.Abstractions.csproj", "{599ACE32-0EF2-49C8-862D-0BD00FE58F9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCollector.Validation", "ServiceCollector.Validation\ServiceCollector.Validation.csproj", "{06153CC4-EF2F-4842-B524-2454EB151691}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{599ACE32-0EF2-49C8-862D-0BD00FE58F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{599ACE32-0EF2-49C8-862D-0BD00FE58F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{599ACE32-0EF2-49C8-862D-0BD00FE58F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06153CC4-EF2F-4842-B524-2454EB151691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06153CC4-EF2F-4842-B524-2454EB151691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06153CC4-EF2F-4842-B524-2454EB151691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06153CC4-EF2F-4842-B524-2454EB151691}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

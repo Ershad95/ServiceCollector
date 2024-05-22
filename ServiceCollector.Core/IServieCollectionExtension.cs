@@ -40,20 +40,27 @@ public static class ServiceCollectionExtension
     /// add all services that exist in all assemblies
     /// </summary>
     /// <param name="serviceCollection"></param>
-    public static void AddServiceDiscovery(this IServiceCollection serviceCollection)
+    public static IServiceConfig AddServiceDiscovery(this IServiceCollection serviceCollection)
     {
-        ServiceDiscovery(AppDomain.CurrentDomain.GetAssemblies(), serviceCollection);
+        var assemblies = AppDomain.CurrentDomain.GetAssemblies();
+        ServiceDiscovery(assemblies, serviceCollection);
+
+        return new ServiceConfig(assemblies,serviceCollection);
     }
 
     /// <summary>
     /// add services that exist in selected assemblies if list of assemblies are empty collect services that exist in all assemblies
     /// </summary>
     /// <param name="serviceCollection"></param>
-    /// <param name="assemblies"></param>
-    public static void AddServiceDiscovery(this IServiceCollection serviceCollection, Assembly[] assemblies)
+    /// <param name="selectedAssemblies"></param>
+    public static IServiceConfig AddServiceDiscovery(this IServiceCollection serviceCollection, Assembly[] selectedAssemblies)
     {
-        ArgumentNullException.ThrowIfNull(assemblies);
+        ArgumentNullException.ThrowIfNull(selectedAssemblies);
 
-        ServiceDiscovery(assemblies.Length > 0 ? assemblies : AppDomain.CurrentDomain.GetAssemblies(), serviceCollection);
+        var assemblies = selectedAssemblies.Length > 0 ? selectedAssemblies : AppDomain.CurrentDomain.GetAssemblies();
+        ServiceDiscovery(assemblies, serviceCollection);
+        
+        return new ServiceConfig(assemblies,serviceCollection);
+
     }
 }
