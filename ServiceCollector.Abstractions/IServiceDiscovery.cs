@@ -1,9 +1,8 @@
-﻿
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 
 namespace ServiceCollector.Abstractions;
 
 public interface IServiceDiscovery
 {
-    void Add(IServiceCollection serviceCollection);
+    void AddServices(IServiceCollection serviceCollection);
 }
