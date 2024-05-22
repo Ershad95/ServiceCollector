@@ -1,0 +1,156 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "ServiceCollector.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ServiceCollector.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServiceCollector.Abstractions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "ServiceCollector.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../ServiceCollector.Abstractions/ServiceCollector.Abstractions.csproj",
+      "msbuildProject": "../ServiceCollector.Abstractions/ServiceCollector.Abstractions.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0",
+      "ServiceCollector.Abstractions >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ershad\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Core\\ServiceCollector.Core.csproj",
+      "projectName": "ServiceCollector.Core",
+      "projectPath": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Core\\ServiceCollector.Core.csproj",
+      "packagesPath": "C:\\Users\\Ershad\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Core\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Ershad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Abstractions\\ServiceCollector.Abstractions.csproj": {
+              "projectPath": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Abstractions\\ServiceCollector.Abstractions.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.19, 6.0.19]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.19, 6.0.19]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.19, 6.0.19]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

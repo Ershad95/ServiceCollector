@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCollector.Core", "ServiceCollector.Core\ServiceCollector.Core.csproj", "{FE330BF8-8994-46C9-A021-2D4C368392AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCollector.Abstractions", "ServiceCollector.Abstractions\ServiceCollector.Abstractions.csproj", "{599ACE32-0EF2-49C8-862D-0BD00FE58F9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE330BF8-8994-46C9-A021-2D4C368392AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE330BF8-8994-46C9-A021-2D4C368392AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE330BF8-8994-46C9-A021-2D4C368392AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE330BF8-8994-46C9-A021-2D4C368392AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{599ACE32-0EF2-49C8-862D-0BD00FE58F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{599ACE32-0EF2-49C8-862D-0BD00FE58F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{599ACE32-0EF2-49C8-862D-0BD00FE58F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{599ACE32-0EF2-49C8-862D-0BD00FE58F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

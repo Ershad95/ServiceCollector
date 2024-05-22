@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "5AJ3J5GSdzgmOGAxhxDsqFp/OGamOAIizH9BCEk0PhNDfPNMQcgKQO0YwxkIWn7Uq6cd9Cm/IyuZDnuCN/toAg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Core\\ServiceCollector.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ershad\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Ershad\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.19\\microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\Ershad\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.19\\microsoft.windowsdesktop.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\Ershad\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.19\\microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}
