@@ -36,11 +36,20 @@ public static class ServiceCollectionExtension
         }
     }
 
+    /// <summary>
+    /// add all services that exist in all assemblies
+    /// </summary>
+    /// <param name="serviceCollection"></param>
     public static void AddServiceDiscovery(this IServiceCollection serviceCollection)
     {
         ServiceDiscovery(AppDomain.CurrentDomain.GetAssemblies(), serviceCollection);
     }
 
+    /// <summary>
+    /// add services that exist in selected assemblies if list of assemblies are empty collect services that exist in all assemblies
+    /// </summary>
+    /// <param name="serviceCollection"></param>
+    /// <param name="assemblies"></param>
     public static void AddServiceDiscovery(this IServiceCollection serviceCollection, Assembly[] assemblies)
     {
         ArgumentNullException.ThrowIfNull(assemblies);
