@@ -1,0 +1,15 @@
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\bin\Release\net6.0\ServiceCollector.Validation.deps.json
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\bin\Release\net6.0\ServiceCollector.Validation.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\bin\Release\net6.0\ServiceCollector.Validation.pdb
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\bin\Release\net6.0\ServiceCollector.Abstractions.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\bin\Release\net6.0\ServiceCollector.Abstractions.pdb
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\obj\Release\net6.0\ServiceCollector.Validation.csproj.AssemblyReference.cache
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\obj\Release\net6.0\ServiceCollector.Validation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\obj\Release\net6.0\ServiceCollector.Validation.AssemblyInfoInputs.cache
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\obj\Release\net6.0\ServiceCollector.Validation.AssemblyInfo.cs
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\obj\Release\net6.0\ServiceCollector.Validation.csproj.CoreCompileInputs.cache
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\obj\Release\net6.0\ServiceCollector.Validation.csproj.CopyComplete
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\obj\Release\net6.0\ServiceCollector.Validation.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\obj\Release\net6.0\refint\ServiceCollector.Validation.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\obj\Release\net6.0\ServiceCollector.Validation.pdb
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\obj\Release\net6.0\ref\ServiceCollector.Validation.dll

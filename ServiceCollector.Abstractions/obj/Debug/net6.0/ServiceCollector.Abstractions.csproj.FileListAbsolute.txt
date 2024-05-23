@@ -1,0 +1,12 @@
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Abstractions\bin\Debug\net6.0\ServiceCollector.Abstractions.deps.json
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Abstractions\bin\Debug\net6.0\ServiceCollector.Abstractions.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Abstractions\bin\Debug\net6.0\ServiceCollector.Abstractions.pdb
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Abstractions\obj\Debug\net6.0\ServiceCollector.Abstractions.csproj.AssemblyReference.cache
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Abstractions\obj\Debug\net6.0\ServiceCollector.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Abstractions\obj\Debug\net6.0\ServiceCollector.Abstractions.AssemblyInfoInputs.cache
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Abstractions\obj\Debug\net6.0\ServiceCollector.Abstractions.AssemblyInfo.cs
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Abstractions\obj\Debug\net6.0\ServiceCollector.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Abstractions\obj\Debug\net6.0\ServiceCollector.Abstractions.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Abstractions\obj\Debug\net6.0\refint\ServiceCollector.Abstractions.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Abstractions\obj\Debug\net6.0\ServiceCollector.Abstractions.pdb
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Abstractions\obj\Debug\net6.0\ref\ServiceCollector.Abstractions.dll

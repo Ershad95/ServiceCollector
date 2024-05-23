@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageIcon>icon.png</PackageIcon>
+        <Title>ServiceCollector.Validation</Title>
+        <Authors>Ershad Raoufi</Authors>
+        <Description>with this package you can add your services in any places,without static classes or extentions just Implement IServiceDiscovery and enjoy it :).</Description>
+        <PackageProjectUrl>https://github.com/Ershad95/ServiceCollector</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Ershad95/ServiceCollector</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ServiceCollector.Abstractions\ServiceCollector.Abstractions.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="icon.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
+    </ItemGroup>
+
+</Project>

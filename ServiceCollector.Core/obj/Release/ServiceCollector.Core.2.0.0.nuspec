@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ServiceCollector.Core</id>
+    <version>2.0.0</version>
+    <title>ServiceCollector</title>
+    <authors>Ershad Raoufi</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>icon.png</icon>
+    <projectUrl>https://github.com/Ershad95/ServiceCollector</projectUrl>
+    <description>with this package you can add your services in any places,without static classes or extentions just Implement IServiceDiscovery and enjoy it :).</description>
+    <tags>.net refelection</tags>
+    <repository url="https://github.com/Ershad95/ServiceCollector.git" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="ServiceCollector.Abstractions" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Core\bin\Release\net6.0\ServiceCollector.Core.dll" target="lib\net6.0\ServiceCollector.Core.dll" />
+    <file src="C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Core\icon.png" target="icon.png" />
+  </files>
+</package>

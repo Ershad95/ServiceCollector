@@ -18,7 +18,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "ServiceCollector.Abstractions/1.0.0": {
+      "ServiceCollector.Abstractions/2.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -59,7 +59,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "ServiceCollector.Abstractions/1.0.0": {
+    "ServiceCollector.Abstractions/2.0.0": {
       "type": "project",
       "path": "../ServiceCollector.Abstractions/ServiceCollector.Abstractions.csproj",
       "msbuildProject": "../ServiceCollector.Abstractions/ServiceCollector.Abstractions.csproj"
@@ -68,14 +68,14 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0",
-      "ServiceCollector.Abstractions >= 1.0.0"
+      "ServiceCollector.Abstractions >= 2.0.0"
     ]
   },
   "packageFolders": {
     "C:\\Users\\Ershad\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Core\\ServiceCollector.Core.csproj",
       "projectName": "ServiceCollector.Core",
