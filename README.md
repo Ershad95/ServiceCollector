@@ -48,11 +48,10 @@ app.Run();
 
 ## 3. Service Validation (optional)
 Service validation allows you to validate services based on certain conditions, such as naming conventions.
-<br>
+
 install package :
 <pre>Install-Package ServiceCollector.Validation</pre>
 <br>
-<br/>
 this validator check that all of the services register in DI,if one service meet the condition but not register validator detect it and throw exception
 
 <pre>
