@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Title>ServiceCollector.Mock</Title>
+        <Authors>ErshadRaoufi</Authors>
+        <PackageProjectUrl>https://github.com/Ershad95/ServiceCollector</PackageProjectUrl>
+        <PackageIcon>icon.png</PackageIcon>
+        <RepositoryUrl>https://github.com/Ershad95/ServiceCollector</RepositoryUrl>
+        <PackageTags>services mock service-collection fake test-double</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ServiceCollector.Abstractions\ServiceCollector.Abstractions.csproj" />
+      <ProjectReference Include="..\ServiceCollector.Core\ServiceCollector.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="NSubstitute" Version="5.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="icon.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
+    </ItemGroup>
+
+</Project>

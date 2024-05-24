@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "XzI0dFZ+JVgs465Dl/fAqvsEH4TFUwFfJi2hGa1kSQY2Zb7OKTGnFHmQMNmChPPxQQiqOi7jRA35sRsy9xIQtg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Mock\\ServiceCollector.Mock.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ershad\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\Ershad\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Ershad\\.nuget\\packages\\nsubstitute\\5.1.0\\nsubstitute.5.1.0.nupkg.sha512",
+    "C:\\Users\\Ershad\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
+    "C:\\Users\\Ershad\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.19\\microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\Ershad\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.19\\microsoft.windowsdesktop.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\Ershad\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.19\\microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\bin\Debug\net6.0\ServiceCollector.Mock.deps.json
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\bin\Debug\net6.0\ServiceCollector.Mock.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\bin\Debug\net6.0\ServiceCollector.Mock.pdb
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\bin\Debug\net6.0\ServiceCollector.Abstractions.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\bin\Debug\net6.0\ServiceCollector.Abstractions.pdb
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\obj\Debug\net6.0\ServiceCollector.Mock.csproj.AssemblyReference.cache
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\obj\Debug\net6.0\ServiceCollector.Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\obj\Debug\net6.0\ServiceCollector.Mock.AssemblyInfoInputs.cache
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\obj\Debug\net6.0\ServiceCollector.Mock.AssemblyInfo.cs
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\obj\Debug\net6.0\ServiceCollector.Mock.csproj.CoreCompileInputs.cache
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\obj\Debug\net6.0\ServiceCollector.Mock.csproj.CopyComplete
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\obj\Debug\net6.0\ServiceCollector.Mock.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\obj\Debug\net6.0\refint\ServiceCollector.Mock.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\obj\Debug\net6.0\ServiceCollector.Mock.pdb
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\obj\Debug\net6.0\ref\ServiceCollector.Mock.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\bin\Debug\net6.0\ServiceCollector.Core.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\bin\Debug\net6.0\ServiceCollector.Core.pdb

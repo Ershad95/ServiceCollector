@@ -2,10 +2,12 @@
 using Microsoft.Extensions.DependencyInjection;
 using ServiceCollector.Abstractions;
 
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("ServiceCollector.Mock")]
 namespace ServiceCollector.Core;
 
 public static class ServiceCollectionExtension
 {
+    private const string CollectorMethod = nameof(IServiceDiscovery.AddServices);
     /// <summary>
     /// get all classes that Implemented IServiceDiscovery and call add service for collect all services.
     /// </summary>
@@ -14,7 +16,6 @@ public static class ServiceCollectionExtension
     /// <exception cref="InvalidOperationException"></exception>
     private static void ServiceDiscovery(IEnumerable<Assembly> assemblies, IServiceCollection serviceCollection)
     {
-        const string collectorMethod = nameof(IServiceDiscovery.AddServices);
         var indicator = typeof(IServiceDiscovery);
 
         try
@@ -24,9 +25,7 @@ public static class ServiceCollectionExtension
 
             foreach (var typeInfo in serviceDiscoveries)
             {
-                var serviceInstance = Activator.CreateInstance(typeInfo);
-                var methodInfo = typeInfo.GetMethod(collectorMethod);
-                methodInfo?.Invoke(serviceInstance, parameters: new object?[] { serviceCollection });
+               serviceCollection.FetchServiceCollections(typeInfo);
             }
         }
         catch (Exception e)
@@ -36,6 +35,18 @@ public static class ServiceCollectionExtension
         }
     }
 
+    /// <summary>
+    /// Get All Services that contains in ServiceDiscoveries
+    /// </summary>
+    /// <param name="serviceCollection"></param>
+    /// <param name="typeInfo">service discovery type</param>
+    internal static void FetchServiceCollections(this IServiceCollection serviceCollection,Type typeInfo)
+    {
+        var serviceInstance = Activator.CreateInstance(typeInfo);
+        var methodInfo = typeInfo.GetMethod(CollectorMethod);
+        methodInfo?.Invoke(serviceInstance, parameters: new object?[] { serviceCollection });
+    }
+    
     /// <summary>
     /// add all services that exist in all assemblies
     /// </summary>
