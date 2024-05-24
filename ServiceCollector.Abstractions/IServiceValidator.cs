@@ -1,8 +1,12 @@
-﻿namespace ServiceCollector.Abstractions;
+﻿using System;
 
-public interface IServiceValidator
+namespace ServiceCollector.Abstractions
 {
-    Exception? Exception { get; }
-    string[] StartNames { get; }
-    string[] EndNames { get; }
+    public interface IServiceValidator
+    {
+        Exception? Exception { get; }
+        string[] StartNames { get; }
+        string[] EndNames { get; }
+    }
 }
+

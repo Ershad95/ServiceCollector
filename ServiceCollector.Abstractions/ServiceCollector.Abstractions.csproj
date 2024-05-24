@@ -1,16 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
+        <ImplicitUsings>disable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>ServiceCollector.Abstractions</Title>
         <Authors>ErshadRaoufi</Authors>
         <RepositoryUrl>https://github.com/Ershad95/ServiceCollector.git</RepositoryUrl>
         <PackageTags>.net services add-services </PackageTags>
-        <PackageIcon>icon.png</PackageIcon>
         <Version>2.0.0</Version>
+        <TargetFrameworks>net6.0;netstandard2.1</TargetFrameworks>
+        <PackageIcon>icon.png</PackageIcon>
     </PropertyGroup>
 
 
@@ -23,10 +23,16 @@
     </ItemGroup>
 
     <ItemGroup>
+        <None Include="icon.png" Pack="true" PackagePath=""/>
+    </ItemGroup>
+    
+    <ItemGroup>
       <None Update="icon.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         <Pack>True</Pack>
         <PackagePath></PackagePath>
       </None>
     </ItemGroup>
+    
 
 </Project>

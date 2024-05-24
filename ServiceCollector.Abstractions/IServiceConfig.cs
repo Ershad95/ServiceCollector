@@ -1,10 +1,12 @@
-﻿using System.Reflection;
+﻿using System.Collections.Generic;
+using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace ServiceCollector.Abstractions;
-
-public interface IServiceConfig
+namespace ServiceCollector.Abstractions
 {
-    ICollection<Assembly> SelectedAssemblies { get; }
-    IServiceCollection ServiceCollection { get; }
+    public interface IServiceConfig
+    {
+        ICollection<Assembly> SelectedAssemblies { get; }
+        IServiceCollection ServiceCollection { get; }
+    }
 }

@@ -1,8 +1,9 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace ServiceCollector.Abstractions;
-
-public interface IMockService
+namespace ServiceCollector.Abstractions
 {
-    public IServiceCollection MockedServiceCollection { get; }
+    public interface IMockService
+    {
+        public IServiceCollection MockedServiceCollection { get; }
+    }
 }

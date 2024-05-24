@@ -10,3 +10,4 @@ C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Abstractions\obj
 C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Abstractions\obj\Release\net6.0\refint\ServiceCollector.Abstractions.dll
 C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Abstractions\obj\Release\net6.0\ServiceCollector.Abstractions.pdb
 C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Abstractions\obj\Release\net6.0\ref\ServiceCollector.Abstractions.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Abstractions\bin\Release\net6.0\icon.png
