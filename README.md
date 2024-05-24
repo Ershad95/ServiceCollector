@@ -1,8 +1,8 @@
 <img alt="ServiceCollector" src="https://github.com/Ershad95/ServiceCollector/blob/master/ServiceCollector.Core/icon.png" style='Width:50px'/>
-
+<br>
 ## ServiceCollector
 ServiceCollector is a .NET library that provides utilities for service discovery and validation within your .NET applications.
-<br>
+
 <img alt="NuGet Downloads" src="https://img.shields.io/nuget/dt/ServiceCollector.Core">
 <img alt="NuGet Version" src="https://img.shields.io/nuget/v/ServiceCollector.Core">
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/ershad95/ServiceCollector">
