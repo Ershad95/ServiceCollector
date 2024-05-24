@@ -1,3 +1,5 @@
+<img alt="ServiceCollector" src="https://github.com/Ershad95/ServiceCollector/blob/master/ServiceCollector.Core/icon.png" style='Width:50px'/>
+
 ## ServiceCollector
 ServiceCollector is a .NET library that provides utilities for service discovery and validation within your .NET applications.
 <br>
