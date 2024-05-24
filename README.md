@@ -48,6 +48,8 @@ app.Run();
 
 ## 3. Service Validation (optional)
 Service validation allows you to validate services based on certain conditions, such as naming conventions.
+install package :
+<pre>Install-Package ServiceCollector.Validation</pre>
 <br/>
 this validator check that all of the services register in DI,if one service meet the condition but not register validator detect it and throw exception
 
@@ -68,6 +70,8 @@ app.Run();
 ## 4. Mock Services (Test)
 if you want write any test(UnitTest,IntegrationTest) you need some test-doubles
 <br>
+install package :
+<pre>Install-Package ServiceCollector.Mock</pre>
 you can easily mock all services and use it in your tests:
 <pre>
   public void X_X_X()
