@@ -17,7 +17,6 @@
     
     <PropertyGroup>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        
     </PropertyGroup>
     
     <ItemGroup>

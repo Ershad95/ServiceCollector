@@ -10,6 +10,8 @@
         <PackageIcon>icon.png</PackageIcon>
         <RepositoryUrl>https://github.com/Ershad95/ServiceCollector</RepositoryUrl>
         <PackageTags>services mock service-collection fake test-double</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Description>with this package you can add your services in any places,without static classes or extentions just Implement IServiceDiscovery and enjoy it :).</Description>
     </PropertyGroup>
 
     <ItemGroup>
@@ -28,4 +30,7 @@
       </None>
     </ItemGroup>
 
+    <PropertyGroup>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
 </Project>

@@ -12,6 +12,8 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("ErshadRaoufi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("with this package you can add your services in any places,without static classes " +
+    "or extentions just Implement IServiceDiscovery and enjoy it :).")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ServiceCollector.Mock")]
