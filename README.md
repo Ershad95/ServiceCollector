@@ -5,6 +5,9 @@ ServiceCollector is a .NET library that provides utilities for service discovery
 
 [![build](https://github.com/Ershad95/ServiceCollector/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Ershad95/ServiceCollector/actions/workflows/dotnet.yml)
 [![test](https://github.com/Ershad95/ServiceCollector/actions/workflows/test.yml/badge.svg)](https://github.com/Ershad95/ServiceCollector/actions/workflows/test.yml)
+<img src="https://img.shields.io/badge/.net6-compatible-green?style=flat&label=.net6&color=darkGreen" />
+<img src="https://img.shields.io/badge/.net6-compatible-green?style=flat&label=.netStandard&color=darkGreen" />
+
 <img  alt="NuGet Downloads" src="https://img.shields.io/nuget/dt/ServiceCollector.Core" /> <img alt="NuGet Version" src="https://img.shields.io/nuget/v/ServiceCollector.Core" /> <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/ershad95/ServiceCollector" /> <img alt="Libraries.io dependency status for GitHub repo" src="https://img.shields.io/librariesio/github/ershad95/ServiceCollector" /> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/ershad95/ServiceCollector" />
 
 
