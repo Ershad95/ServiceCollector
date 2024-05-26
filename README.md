@@ -1,12 +1,11 @@
 <img alt="ServiceCollector" src="https://github.com/Ershad95/ServiceCollector/blob/master/ServiceCollector.Core/icon.png" style='Width:50px'/>
 
 ## ServiceCollector
+<img alt="Static Badge" src="https://img.shields.io/badge/nuget-ServiceCollector.Core-blue?style=flat&logo=nuget&color=blue&link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FServiceCollector.Core%2F"> <img alt="Static Badge" src="https://img.shields.io/badge/nuget-ServiceCollector.Validation-blue?style=flat&logo=nuget&color=blue&link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FServiceCollector.Validation"> <img alt="Static Badge" src="https://img.shields.io/badge/nuget-ServiceCollector.Abstractions-blue?style=flat&logo=nuget&color=blue&link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FServiceCollector.Abstractions%2F"> <img alt="Static Badge" src="https://img.shields.io/badge/nuget-ServiceCollector.Mock%20-blue?style=flat&logo=nuget&color=blue&link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FServiceCollector.Mock%2F">
+
 ServiceCollector is a .NET library that provides utilities for service discovery and validation within your .NET applications.
 
-<img src="https://img.shields.io/badge/.net6-compatible-green?style=flat&label=.net6&color=darkGreen" /> <img src="https://img.shields.io/badge/.net6-compatible-green?style=flat&label=.netStandard&color=darkGreen" />
-
-[![build](https://github.com/Ershad95/ServiceCollector/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Ershad95/ServiceCollector/actions/workflows/dotnet.yml)
-[![test](https://github.com/Ershad95/ServiceCollector/actions/workflows/test.yml/badge.svg)](https://github.com/Ershad95/ServiceCollector/actions/workflows/test.yml)
+[![build](https://github.com/Ershad95/ServiceCollector/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Ershad95/ServiceCollector/actions/workflows/dotnet.yml) [![test](https://github.com/Ershad95/ServiceCollector/actions/workflows/test.yml/badge.svg)](https://github.com/Ershad95/ServiceCollector/actions/workflows/test.yml) <img src="https://img.shields.io/badge/.net6-compatible-green?style=flat&label=.net6&color=darkGreen" /> <img src="https://img.shields.io/badge/.net6-compatible-green?style=flat&label=.netStandard&color=darkGreen" />
 
 <img  alt="NuGet Downloads" src="https://img.shields.io/nuget/dt/ServiceCollector.Core" /> <img alt="NuGet Version" src="https://img.shields.io/nuget/v/ServiceCollector.Core" /> <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/ershad95/ServiceCollector" /> <img alt="Libraries.io dependency status for GitHub repo" src="https://img.shields.io/librariesio/github/ershad95/ServiceCollector" /> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/ershad95/ServiceCollector" />
 
