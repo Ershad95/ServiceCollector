@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZaxOJZ9BU5J+sLtYyxwE4wmDD76Wvon1+bmjpYQNR4ASd/xFaon5QwTExxCOCBIkh2aUaFcILtADDnWyTT/PhA==",
+  "dgSpecHash": "BKtL0COZ1LBlpVY8eKb+mxMYf/+M0FM5PZ0jFPhvaN1dW07vs+ixvCNZLnVMAltNHa2uF+o0foVFAOGu/OdyzA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Fake\\ServiceCollector.Fake.csproj",
   "expectedPackageFiles": [
@@ -107,7 +107,6 @@
       "message": "Castle.Core 4.0.0 depends on System.ComponentModel.TypeConverter (>= 4.0.1) but System.ComponentModel.TypeConverter 4.0.1 was not found. An approximate best match of System.ComponentModel.TypeConverter 4.1.0 was resolved.",
       "libraryId": "System.ComponentModel.TypeConverter",
       "targetGraphs": [
-        ".NETStandard,Version=v2.1",
         "net6.0"
       ]
     }

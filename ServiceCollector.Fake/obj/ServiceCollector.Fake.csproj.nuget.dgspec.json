@@ -120,14 +120,12 @@
         "packagesPath": "C:\\Users\\Ershad\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Fake\\obj\\",
         "projectStyle": "PackageReference",
-        "crossTargeting": true,
         "configFilePaths": [
           "C:\\Users\\Ershad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0",
-          "netstandard2.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -136,14 +134,6 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Abstractions\\ServiceCollector.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Abstractions\\ServiceCollector.Abstractions.csproj"
-              }
-            }
-          },
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
             "projectReferences": {
               "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Abstractions\\ServiceCollector.Abstractions.csproj": {
                 "projectPath": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Abstractions\\ServiceCollector.Abstractions.csproj"
@@ -197,36 +187,6 @@
           ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
-        },
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
-          "dependencies": {
-            "AutoFixture": {
-              "target": "Package",
-              "version": "[4.18.1, )"
-            },
-            "AutoFixture.AutoNSubstitute": {
-              "target": "Package",
-              "version": "[4.18.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "NETStandard.Library": {
               "privateAssets": "all"
             }
           },

@@ -1,12 +1,18 @@
 ﻿using System;
 using AutoFixture;
 using AutoFixture.AutoNSubstitute;
+using AutoFixture.Dsl;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using NSubstitute;
 using ServiceCollector.Abstractions;
 
 namespace ServiceCollector.Fake
 {
+    public class Dto
+    {
+        public int Age { get; set; }
+    }
 
     public static partial class ServiceConfigExtension
     {
@@ -28,7 +34,6 @@ namespace ServiceCollector.Fake
             string targetEnvironment = "Development")
             where TService : class
         {
-
             if (action is null)
                 return serviceConfig;
 
@@ -45,7 +50,6 @@ namespace ServiceCollector.Fake
             return serviceConfig;
         }
 
-
         public static IServiceConfig FakeInMultiEnvironments<TService>(
             this IServiceConfig serviceConfig,
             Action<FakeConfigurationWithMultiEnvironment<TService>> action,
@@ -56,7 +60,7 @@ namespace ServiceCollector.Fake
             action(fakeConfiguration);
 
             var service = fakeConfiguration.Services[currentEnvironment];
-            if (service !=null)
+            if (service != null)
             {
                 serviceConfig
                     .ServiceCollection
@@ -64,6 +68,14 @@ namespace ServiceCollector.Fake
             }
 
             return serviceConfig;
+        }
+
+        public static void ResultBuilder<TObject>(
+            this TObject result,
+            Action<TObject> action)
+            where TObject : class
+        {
+            action(result);
         }
     }
 }

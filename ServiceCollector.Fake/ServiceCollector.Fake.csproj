@@ -3,10 +3,12 @@
     <PropertyGroup>
         <ImplicitUsings>disable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <TargetFrameworks>net6.0;netstandard2.1</TargetFrameworks>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>ServiceCollector.Fake</Title>
         <Authors>Ershad Raoufi</Authors>
+        <PackageIcon>icon.png</PackageIcon>
+        <TargetFramework>net6.0</TargetFramework>
+        <Description>you can fake your services without create any classes just read document and enjoy it :)</Description>
     </PropertyGroup>
     
     <ItemGroup>
@@ -17,12 +19,16 @@
     <ItemGroup>
       <ProjectReference Include="..\ServiceCollector.Abstractions\ServiceCollector.Abstractions.csproj" />
     </ItemGroup>
-
+    
     <ItemGroup>
-        <None Update="icon.png">
-            <Pack>True</Pack>
-            <PackagePath></PackagePath>
-        </None>
+      <None Update="icon.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
     </ItemGroup>
 
+
+    <PropertyGroup>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
 </Project>
