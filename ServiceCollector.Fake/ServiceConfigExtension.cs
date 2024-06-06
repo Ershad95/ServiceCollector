@@ -49,7 +49,7 @@ public static partial class ServiceConfigExtension
         string currentEnvironment = "Development")
         where TService : class
     {
-        var fakeConfiguration = new ServiceConfigExtension.FakeConfigurationWithMultiEnvironment<TService>();
+        var fakeConfiguration = new FakeConfigurationWithMultiEnvironment<TService>(currentEnvironment);
         action(fakeConfiguration);
 
         var service = fakeConfiguration.Services[currentEnvironment];
