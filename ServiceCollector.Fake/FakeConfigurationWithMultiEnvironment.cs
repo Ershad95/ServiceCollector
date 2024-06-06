@@ -18,7 +18,7 @@ public static partial class ServiceConfigExtension
 
         public void Add(string targetEnvironment, Action<TService> service)
         {
-            var obj = AutoFixture.Create<TService>();
+            var obj = ServiceConfigExtension.AutoFixture.Create<TService>();
             service(obj);
             Services.Add(targetEnvironment, obj);
         }
