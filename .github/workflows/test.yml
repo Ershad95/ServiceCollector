@@ -1,0 +1,27 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: test
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+   test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
+    - name: Test
+      run: dotnet test --logger trx --results-directory "TestResults-8.0.x"
+    - name: Upload dotnet test results
+      uses: actions/upload-artifact@v4
+      with:
+          name: dotnet-results-8.0.x
+          path: "TestResults-8.0.x"
