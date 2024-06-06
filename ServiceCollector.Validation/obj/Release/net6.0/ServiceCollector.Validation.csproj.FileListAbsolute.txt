@@ -13,3 +13,4 @@ C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\obj\R
 C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\obj\Release\net6.0\refint\ServiceCollector.Validation.dll
 C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\obj\Release\net6.0\ServiceCollector.Validation.pdb
 C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\obj\Release\net6.0\ref\ServiceCollector.Validation.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Validation\bin\Release\net6.0\icon.png

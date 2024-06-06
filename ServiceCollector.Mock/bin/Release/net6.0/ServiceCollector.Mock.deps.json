@@ -9,7 +9,8 @@
       "ServiceCollector.Mock/1.0.0": {
         "dependencies": {
           "NSubstitute": "5.1.0",
-          "ServiceCollector.Abstractions": "2.0.0"
+          "ServiceCollector.Abstractions": "2.0.0",
+          "ServiceCollector.Core": "2.0.0"
         },
         "runtime": {
           "ServiceCollector.Mock.dll": {}
@@ -74,6 +75,15 @@
         "runtime": {
           "ServiceCollector.Abstractions.dll": {}
         }
+      },
+      "ServiceCollector.Core/2.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "ServiceCollector.Abstractions": "2.0.0"
+        },
+        "runtime": {
+          "ServiceCollector.Core.dll": {}
+        }
       }
     }
   },
@@ -112,6 +122,11 @@
       "hashPath": "system.diagnostics.eventlog.6.0.0.nupkg.sha512"
     },
     "ServiceCollector.Abstractions/2.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServiceCollector.Core/2.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

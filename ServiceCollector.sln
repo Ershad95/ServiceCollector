@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCollector.Validation
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCollector.Mock", "ServiceCollector.Mock\ServiceCollector.Mock.csproj", "{280F47FF-B844-4084-A88F-82553CBDDF8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCollector.Fake", "ServiceCollector.Fake\ServiceCollector.Fake.csproj", "{07172AD7-19A7-4157-B410-7AB6F5D46BEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{280F47FF-B844-4084-A88F-82553CBDDF8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{280F47FF-B844-4084-A88F-82553CBDDF8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{280F47FF-B844-4084-A88F-82553CBDDF8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07172AD7-19A7-4157-B410-7AB6F5D46BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07172AD7-19A7-4157-B410-7AB6F5D46BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07172AD7-19A7-4157-B410-7AB6F5D46BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07172AD7-19A7-4157-B410-7AB6F5D46BEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

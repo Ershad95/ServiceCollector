@@ -1,0 +1,14 @@
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\obj\Release\netstandard2.1\ServiceCollector.Fake.csproj.AssemblyReference.cache
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\obj\Release\netstandard2.1\ServiceCollector.Fake.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\obj\Release\netstandard2.1\ServiceCollector.Fake.AssemblyInfoInputs.cache
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\obj\Release\netstandard2.1\ServiceCollector.Fake.AssemblyInfo.cs
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\obj\Release\netstandard2.1\ServiceCollector.Fake.csproj.CoreCompileInputs.cache
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\bin\Release\netstandard2.1\icon.png
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\bin\Release\netstandard2.1\ServiceCollector.Fake.deps.json
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\bin\Release\netstandard2.1\ServiceCollector.Fake.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\bin\Release\netstandard2.1\ServiceCollector.Fake.pdb
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\bin\Release\netstandard2.1\ServiceCollector.Abstractions.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\bin\Release\netstandard2.1\ServiceCollector.Abstractions.pdb
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\obj\Release\netstandard2.1\ServiceCollector.Fake.csproj.CopyComplete
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\obj\Release\netstandard2.1\ServiceCollector.Fake.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\obj\Release\netstandard2.1\ServiceCollector.Fake.pdb

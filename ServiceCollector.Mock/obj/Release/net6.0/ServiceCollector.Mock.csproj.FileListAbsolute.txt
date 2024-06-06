@@ -13,3 +13,6 @@ C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\obj\Release
 C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\obj\Release\net6.0\refint\ServiceCollector.Mock.dll
 C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\obj\Release\net6.0\ServiceCollector.Mock.pdb
 C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\obj\Release\net6.0\ref\ServiceCollector.Mock.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\bin\Release\net6.0\icon.png
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\bin\Release\net6.0\ServiceCollector.Core.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Mock\bin\Release\net6.0\ServiceCollector.Core.pdb
