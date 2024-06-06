@@ -9,11 +9,6 @@ using ServiceCollector.Abstractions;
 
 namespace ServiceCollector.Fake
 {
-    public class Dto
-    {
-        public int Age { get; set; }
-    }
-
     public static partial class ServiceConfigExtension
     {
         private static readonly IFixture AutoFixture;
