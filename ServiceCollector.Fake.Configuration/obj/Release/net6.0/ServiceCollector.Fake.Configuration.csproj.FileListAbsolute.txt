@@ -1,0 +1,12 @@
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake.Configuration\bin\Release\net6.0\ServiceCollector.Fake.Configuration.deps.json
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake.Configuration\bin\Release\net6.0\ServiceCollector.Fake.Configuration.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake.Configuration\bin\Release\net6.0\ServiceCollector.Fake.Configuration.pdb
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake.Configuration\obj\Release\net6.0\ServiceCollector.Fake.Configuration.csproj.AssemblyReference.cache
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake.Configuration\obj\Release\net6.0\ServiceCollector.Fake.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake.Configuration\obj\Release\net6.0\ServiceCollector.Fake.Configuration.AssemblyInfoInputs.cache
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake.Configuration\obj\Release\net6.0\ServiceCollector.Fake.Configuration.AssemblyInfo.cs
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake.Configuration\obj\Release\net6.0\ServiceCollector.Fake.Configuration.csproj.CoreCompileInputs.cache
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake.Configuration\obj\Release\net6.0\ServiceCollector.Fake.Configuration.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake.Configuration\obj\Release\net6.0\refint\ServiceCollector.Fake.Configuration.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake.Configuration\obj\Release\net6.0\ServiceCollector.Fake.Configuration.pdb
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake.Configuration\obj\Release\net6.0\ref\ServiceCollector.Fake.Configuration.dll

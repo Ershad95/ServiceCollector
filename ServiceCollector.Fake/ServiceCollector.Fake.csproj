@@ -9,16 +9,13 @@
         <PackageIcon>icon.png</PackageIcon>
         <TargetFramework>net6.0</TargetFramework>
         <Description>you can fake your services without create any classes just read document and enjoy it :)</Description>
-        <Version>2.0.0</Version>
+        <Version>2.1.0</Version>
+        <PackageTags>service-collector fake configuration service serviceCollection Collection ServiceCollector</PackageTags>
     </PropertyGroup>
     
     <ItemGroup>
-      <PackageReference Include="AutoFixture" Version="4.18.1" />
-      <PackageReference Include="AutoFixture.AutoNSubstitute" Version="4.18.1" />
-    </ItemGroup>
-    
-    <ItemGroup>
       <ProjectReference Include="..\ServiceCollector.Abstractions\ServiceCollector.Abstractions.csproj" />
+      <ProjectReference Include="..\ServiceCollector.Fake.Configuration\ServiceCollector.Fake.Configuration.csproj" />
     </ItemGroup>
     
     <ItemGroup>

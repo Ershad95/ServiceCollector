@@ -1,33 +1,21 @@
 ﻿using System;
-using AutoFixture;
-using AutoFixture.AutoNSubstitute;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using ServiceCollector.Abstractions;
+using ServiceCollector.Fake.Configuration;
 
 namespace ServiceCollector.Fake;
 
-public static partial class ServiceConfigExtension
+public static class ServiceConfigExtension
 {
-    private static readonly IFixture AutoFixture;
-
-    static ServiceConfigExtension()
-    {
-        AutoFixture = new Fixture()
-            .Customize(new AutoNSubstituteCustomization()
-            {
-                ConfigureMembers = true
-            });
-    }
-
     public static IServiceConfig Fake<TService>(
         this IServiceConfig serviceConfig,
-        Action<ServiceConfigExtension.FakeConfiguration<TService>>? action = null,
+        Action<FakeConfiguration<TService>>? action = null,
         string currentEnvironment = "Development",
         string targetEnvironment = "Development")
         where TService : class
     {
-        var obj = AutoFixture.Create<TService>();
+        var obj = BaseGenerator.Create<TService>();
         var fakeConfiguration = new FakeConfiguration<TService>(obj);
         action?.Invoke(fakeConfiguration);
 

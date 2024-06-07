@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCollector.Mock", "Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCollector.Fake", "ServiceCollector.Fake\ServiceCollector.Fake.csproj", "{07172AD7-19A7-4157-B410-7AB6F5D46BEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCollector.Fake.Configuration", "ServiceCollector.Fake.Configuration\ServiceCollector.Fake.Configuration.csproj", "{4658CD94-0E9A-45AA-B113-222B39063084}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{07172AD7-19A7-4157-B410-7AB6F5D46BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07172AD7-19A7-4157-B410-7AB6F5D46BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07172AD7-19A7-4157-B410-7AB6F5D46BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4658CD94-0E9A-45AA-B113-222B39063084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4658CD94-0E9A-45AA-B113-222B39063084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4658CD94-0E9A-45AA-B113-222B39063084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4658CD94-0E9A-45AA-B113-222B39063084}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "I6XlNrK13fmaszT9tUUbAmZFS1PLBxWOLPfKfnK32IDsi8jV2zXKmA7p97m0gLl6lEB6pQ7V8tUNEvk2GKXoHQ==",
+  "dgSpecHash": "WPhgyBVuY+ffEJB6Myqwd3jKUhMSrqoBQWH2Yt/zhQMZ0rM0x6BXQBpeGnj29u+QnPK+dyIRJ52If4y1eZrSLQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Fake\\ServiceCollector.Fake.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,7 @@
     "C:\\Users\\Ershad\\.nuget\\packages\\castle.core\\4.0.0\\castle.core.4.0.0.nupkg.sha512",
     "C:\\Users\\Ershad\\.nuget\\packages\\fare\\2.1.1\\fare.2.1.1.nupkg.sha512",
     "C:\\Users\\Ershad\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
-    "C:\\Users\\Ershad\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Ershad\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
     "C:\\Users\\Ershad\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Ershad\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Ershad\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",

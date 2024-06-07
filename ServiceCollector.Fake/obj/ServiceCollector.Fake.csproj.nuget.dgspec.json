@@ -111,8 +111,91 @@
         }
       }
     },
+    "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Fake.Configuration\\ServiceCollector.Fake.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Fake.Configuration\\ServiceCollector.Fake.Configuration.csproj",
+        "projectName": "ServiceCollector.Fake.Configuration",
+        "projectPath": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Fake.Configuration\\ServiceCollector.Fake.Configuration.csproj",
+        "packagesPath": "C:\\Users\\Ershad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Fake.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ershad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
+            "AutoFixture.AutoNSubstitute": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.19, 6.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.19, 6.0.19]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.19, 6.0.19]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Fake\\ServiceCollector.Fake.csproj": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Fake\\ServiceCollector.Fake.csproj",
         "projectName": "ServiceCollector.Fake",
@@ -137,6 +220,9 @@
             "projectReferences": {
               "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Abstractions\\ServiceCollector.Abstractions.csproj": {
                 "projectPath": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Abstractions\\ServiceCollector.Abstractions.csproj"
+              },
+              "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Fake.Configuration\\ServiceCollector.Fake.Configuration.csproj": {
+                "projectPath": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Fake.Configuration\\ServiceCollector.Fake.Configuration.csproj"
               }
             }
           }
@@ -150,16 +236,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "AutoFixture": {
-              "target": "Package",
-              "version": "[4.18.1, )"
-            },
-            "AutoFixture.AutoNSubstitute": {
-              "target": "Package",
-              "version": "[4.18.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

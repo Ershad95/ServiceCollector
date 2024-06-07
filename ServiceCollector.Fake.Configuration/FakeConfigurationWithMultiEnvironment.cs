@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using AutoFixture;
-
-namespace ServiceCollector.Fake
+﻿namespace ServiceCollector.Fake.Configuration
 {
-    
-public static partial class ServiceConfigExtension
-{
-    public class FakeConfigurationWithMultiEnvironment<TService> 
+    public class FakeConfigurationWithMultiEnvironment<TService>
         where TService : class
     {
         private readonly string _currentEnv;
-        internal IDictionary<string, TService> Services { get; private set; }
+        public IDictionary<string, TService> Services { get; private set; }
 
         public FakeConfigurationWithMultiEnvironment(string currentEnv)
         {
@@ -21,20 +14,20 @@ public static partial class ServiceConfigExtension
 
         public void Add(string targetEnvironment, Action<TService> service)
         {
-            var obj = AutoFixture.Create<TService>();
-            service(obj);
-            Services.Add(targetEnvironment, obj);
+            var serviceObject = BaseGenerator.Create<TService>();
+            service(serviceObject);
+            Services.Add(targetEnvironment, serviceObject);
         }
+
         /// <summary>
         /// set current env as target env
         /// </summary>
         /// <param name="service"></param>
         public void Add(Action<TService> service)
         {
-            var obj = AutoFixture.Create<TService>();
-            service(obj);
-            Services.Add(_currentEnv, obj);
+            var serviceObject = BaseGenerator.Create<TService>();
+            service(serviceObject);
+            Services.Add(_currentEnv, serviceObject);
         }
     }
-}
 }

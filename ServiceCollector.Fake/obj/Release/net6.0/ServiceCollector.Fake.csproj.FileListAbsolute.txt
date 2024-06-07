@@ -14,3 +14,5 @@ C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\obj\Release
 C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\obj\Release\net6.0\refint\ServiceCollector.Fake.dll
 C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\obj\Release\net6.0\ServiceCollector.Fake.pdb
 C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\obj\Release\net6.0\ref\ServiceCollector.Fake.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\bin\Release\net6.0\ServiceCollector.Fake.Configuration.dll
+C:\Users\Ershad\RiderProjects\ServiceCollector\ServiceCollector.Fake\bin\Release\net6.0\ServiceCollector.Fake.Configuration.pdb
