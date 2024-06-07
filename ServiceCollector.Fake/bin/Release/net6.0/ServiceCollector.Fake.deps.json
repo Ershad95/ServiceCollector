@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "ServiceCollector.Fake/1.0.0": {
+      "ServiceCollector.Fake/2.0.0": {
         "dependencies": {
           "AutoFixture": "4.18.1",
           "AutoFixture.AutoNSubstitute": "4.18.1",
@@ -950,7 +950,7 @@
     }
   },
   "libraries": {
-    "ServiceCollector.Fake/1.0.0": {
+    "ServiceCollector.Fake/2.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

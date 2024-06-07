@@ -27,11 +27,9 @@ public static partial class ServiceConfigExtension
         string targetEnvironment = "Development")
         where TService : class
     {
-        if (action is null)
-            return serviceConfig;
-
-        var fakeConfiguration = new ServiceConfigExtension.FakeConfiguration<TService>(AutoFixture.Create<TService>());
-        action(fakeConfiguration);
+        var obj = AutoFixture.Create<TService>();
+        var fakeConfiguration = new FakeConfiguration<TService>(obj);
+        action?.Invoke(fakeConfiguration);
 
         if (string.Equals(currentEnvironment, targetEnvironment, StringComparison.InvariantCultureIgnoreCase))
         {
@@ -45,7 +43,7 @@ public static partial class ServiceConfigExtension
 
     public static IServiceConfig FakeInMultiEnvironments<TService>(
         this IServiceConfig serviceConfig,
-        Action<ServiceConfigExtension.FakeConfigurationWithMultiEnvironment<TService>> action,
+        Action<FakeConfigurationWithMultiEnvironment<TService>> action,
         string currentEnvironment = "Development")
         where TService : class
     {

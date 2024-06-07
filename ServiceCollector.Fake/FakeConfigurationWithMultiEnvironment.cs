@@ -7,7 +7,8 @@ namespace ServiceCollector.Fake
     
 public static partial class ServiceConfigExtension
 {
-    public class FakeConfigurationWithMultiEnvironment<TService> where TService : class
+    public class FakeConfigurationWithMultiEnvironment<TService> 
+        where TService : class
     {
         private readonly string _currentEnv;
         internal IDictionary<string, TService> Services { get; private set; }

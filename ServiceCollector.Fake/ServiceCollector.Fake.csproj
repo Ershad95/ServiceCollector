@@ -9,6 +9,7 @@
         <PackageIcon>icon.png</PackageIcon>
         <TargetFramework>net6.0</TargetFramework>
         <Description>you can fake your services without create any classes just read document and enjoy it :)</Description>
+        <Version>2.0.0</Version>
     </PropertyGroup>
     
     <ItemGroup>

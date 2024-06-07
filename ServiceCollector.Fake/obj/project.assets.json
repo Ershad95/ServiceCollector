@@ -5768,7 +5768,7 @@
     "C:\\Users\\Ershad\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\Ershad\\RiderProjects\\ServiceCollector\\ServiceCollector.Fake\\ServiceCollector.Fake.csproj",
       "projectName": "ServiceCollector.Fake",
