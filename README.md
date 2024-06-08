@@ -95,7 +95,6 @@ you can easily mock all services and use it in your tests:
   
     // Assert
   }
-  
 </pre>
 
 ## 5. Fake Services (Production code)
