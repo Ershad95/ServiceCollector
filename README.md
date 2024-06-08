@@ -102,7 +102,6 @@ Debugging without relying on external services and facilitating rapid service de
 <br>
 
 install packages :
-<pre>Install-Package ServiceCollector.Fake.Configuration</pre>
 <pre>Install-Package ServiceCollector.Fake</pre>
 
 <br>
