@@ -97,7 +97,6 @@ you can easily mock all services and use it in your tests:
   
 </pre>
 
-
 ## Nuget Packages : 
 <a href="https://www.nuget.org/packages/ServiceCollector.Abstractions/">ServiceCollector.Abstractions</a>
 <br>
@@ -106,6 +105,9 @@ you can easily mock all services and use it in your tests:
 <a href="https://www.nuget.org/packages/ServiceCollector.Validation/">ServiceCollector.Validation</a>
 <br>
 <a href="https://www.nuget.org/packages/ServiceCollector.Mock/">ServiceCollector.Mock</a>
-
+<br>
+<a href="https://www.nuget.org/packages/ServiceCollector.Fake/">ServiceCollector.Fake</a>
+<br>
+<a href="https://www.nuget.org/packages/ServiceCollector.Fake.Configuration/">ServiceCollector.Fake.Configuration</a>
 ## License
 This project is licensed under the MIT License
