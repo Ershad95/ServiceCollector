@@ -98,6 +98,16 @@ you can easily mock all services and use it in your tests:
   
 </pre>
 
+## 5. Fake Services (Production code)
+Debugging without relying on external services and facilitating rapid service delivery to front-end developers without the need for implementation.
+<br>
+
+install packages :
+<pre>Install-Package ServiceCollector.Fake.Configuration</pre>
+<pre>Install-Package ServiceCollector.Fake</pre>
+
+<br>
+
 ## Nuget Packages : 
 <a href="https://www.nuget.org/packages/ServiceCollector.Abstractions/">ServiceCollector.Abstractions</a>
 <br>
